@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+!training_output.log
+
+# Model files (large)
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Data files (can be regenerated)
+data/*.txt
+data/*.json
+!data/.gitkeep
+
+# Results (keep structure)
+results/*.png
+results/*.csv
+results/*.json
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+.ipynb_checkpoints/
